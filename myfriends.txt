@@ -1,0 +1,14 @@
+These are my friends:
+
+on friend number 1
+
+on friend number 2
+
+on friend number 3
+
+on friend number 4
+
+on friend number 5
+
+on friend number 6
+Total number of Friends: 7
