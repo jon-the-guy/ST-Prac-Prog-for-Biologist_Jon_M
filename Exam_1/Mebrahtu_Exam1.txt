@@ -1,0 +1,44 @@
+2) 
+Exam #1 – Jonathan Mebrahtu
+
+3)
+181M
+
+4)
+ls -lth /home/shared/jonathan/Exam_1/SLF_genomic.gff
+
+5)
+cDNA_match
+CDS
+exon
+gene
+lnc_RNA
+mRNA
+pseudogene
+region
+rRNA
+scaRNA
+sequence_feature
+snoRNA
+snRNA
+transcript
+tRNA
+
+6)
+grep -v "#" /home/shared/jonathan/Exam_1/SLF_genomic.gff | cut -f3 | sort | uniq >> Mebrahtu_Exam1.txt
+
+7)
+330367
+
+8)
+grep "mRNA" /home/shared/jonathan/Exam_1/SLF_genomic.gff | wc -l >> Mebrahtu_Exam1.txt
+
+9)
+NC_012835.1	tRNA	13514	13575
+NC_012835.1	exon	13514	13575
+NC_012835.1	rRNA	13576	14367
+NC_012835.1	exon	13576	14367
+NC_012835.1	sequence_feature	14368	15410
+
+10)
+grep -v "#" /home/shared/jonathan/Exam_1/SLF_genomic.gff | tail -n 5 | cut -f1,3,4,5 >> Mebrahtu_Exam1.txt
