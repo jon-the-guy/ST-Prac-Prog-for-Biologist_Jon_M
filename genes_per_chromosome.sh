@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# genes_per_chromosome.sh
+
 # Script to count genes per chromosome from a SLF Genome file
 # Make 2-column table (Chromosome <tab> GeneCount)
 
@@ -37,7 +37,6 @@ if [ ${#CHROMOSOMES[@]} -eq 0 ]; then
     exit 1
 fi
 
-
 echo "Found ${#CHROMOSOMES[@]} chromosomes" >&2
 
 # Table header (to stdout)
@@ -49,7 +48,7 @@ for chrom in "${CHROMOSOMES[@]}"; do
     # Count genes for this chromosome
     # Filter: skip header lines, match chromosome in field 1, match "gene" in field 3
    gene_count=$(grep -v '^#' "$INPUT_FILE" | grep "^$chrom" | cut -f3 | grep -c "^gene$")
-
+    
 echo -e "$chrom\t$gene_count"
 done
 
