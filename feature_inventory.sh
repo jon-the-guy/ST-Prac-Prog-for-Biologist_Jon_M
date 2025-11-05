@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# feature_inventory.sh
 # Count total features and specific feature types from SLF.genome file
 
 # A. Store the input file name in a variable
