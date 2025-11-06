@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# HW 2 : Q4
 
 # summarize_split_gffs_array.sh
 # Script to summarize feature counts from individual chromosome GFF files

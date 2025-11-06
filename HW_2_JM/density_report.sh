@@ -1,8 +1,8 @@
 #!/bin/bash
 
+#HW 2: Q5
 
 # Script to count genes per chromosome and classify density from a GFF file
-# Homework 2 - Question 5
 # Mod from genes_per_chromosome.sh to include density 
 
 # A. Store the input file name in a variable

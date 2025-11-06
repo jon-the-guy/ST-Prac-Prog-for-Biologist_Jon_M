@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# HW 2 : Q3
+
 # A. Store the input file name in a variable
 # Use provided argument or default to the specified file path
 if [ -z "$1" ]; then

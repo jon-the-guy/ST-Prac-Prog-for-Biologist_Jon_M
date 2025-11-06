@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# HW 2 : Q2
 
 # Script to count genes per chromosome from a SLF Genome file
 # Make 2-column table (Chromosome <tab> GeneCount)

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# HW 2: Q1
 # Count total features and specific feature types from SLF.genome file
 
 # A. Store the input file name in a variable
