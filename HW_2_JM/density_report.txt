@@ -1,0 +1,15 @@
+Chromosome	GeneCount	Class
+NC_012835.1	13	Low-density
+NC_134455.1	2951	High-density
+NC_134456.1	1793	Low-density
+NC_134457.1	1612	Low-density
+NC_134458.1	1608	Low-density
+NC_134459.1	1350	Low-density
+NC_134460.1	1162	Low-density
+NC_134461.1	1174	Low-density
+NC_134462.1	968	Low-density
+NC_134463.1	993	Low-density
+NC_134464.1	940	Low-density
+NC_134465.1	684	Low-density
+NC_134466.1	726	Low-density
+NC_134467.1	561	Low-density
